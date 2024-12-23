@@ -116,9 +116,9 @@ include:
     artifact-name: nice_corne_left_peripheral_oled
 
     # peripheral_left + puchi_ble_v1 + nice_oled
-  - board: puchi_ble_v1
-    shield: corne_left_peripheral nice_oled
-    artifact-name: puchi_corne_left_peripheral_oled
+ # - board: puchi_ble_v1
+ #   shield: corne_left_peripheral nice_oled
+ #   artifact-name: puchi_corne_left_peripheral_oled
     ### nice_oled END ###
 
     ### Xiao_Dongle START ###
