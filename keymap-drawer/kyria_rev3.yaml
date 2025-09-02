@@ -1,0 +1,155 @@
+layout: {zmk_keyboard: kyria_rev3}
+layers:
+  default:
+  - Esc
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: '''', h: RSHIFT}
+  - $$mdi:apple-keyboard-control$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: ⏎, h: navigation}
+  - (
+  - )
+  - {t: ⌦, h: navigation}
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - '-'
+  - $$mdi:apple-keyboard-command$$
+  - LCMD
+  - $$mdi:apple-keyboard-option$$
+  - {t: ␣, h: numbers}
+  - '['
+  - ']'
+  - {t: '$$mdi:backspace-outline$$', h: numbers}
+  - ↹
+  - RCMD
+  - $$mdi:apple-keyboard-command$$
+  numbers:
+  - ''
+  - ''
+  - '!'
+  - '@'
+  - AMPS
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - KP EQUAL
+  - ''
+  - ''
+  - ''
+  - '#'
+  - $
+  - '~'
+  - ''
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - KP MULTIPLY
+  - '`'
+  - ''
+  - ''
+  - '%'
+  - ^
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - KP PLUS
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '0'
+  - ''
+  navigation:
+  - BT CLR
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ←
+  - ↓
+  - ↑
+  - →
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT NXT
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
