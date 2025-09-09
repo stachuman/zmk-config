@@ -70,7 +70,7 @@ include:
     # puchi_ble_v1 + nice_view_gem
   - board: puchi_ble_v1
     shield: corne_left nice_view_adapter nice_view_gem
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Puchi_Corne_View\"
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"PCorne_View\"
     artifact-name: puchi_corne_left_view
     snippet: studio-rpc-usb-uart
   - board: puchi_ble_v1
@@ -104,7 +104,7 @@ include:
     # puchi_ble_v1 + nice_oled
   - board: puchi_ble_v1
     shield: corne_left nice_oled
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Puchi_Corne_Oled\"
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"PCorne_Oled\"
     artifact-name: puchi_corne_left_oled
     snippet: studio-rpc-usb-uart
   - board: puchi_ble_v1
@@ -153,14 +153,14 @@ include:
     # snippet: zmk-usb-logging
   - board: puchi_ble_v1
     shield: corne_dongle_pro_micro
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Puchi_Dongle\"
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"PDongle\"
     artifact-name: puchi_corne_dongle
     snippet: studio-rpc-usb-uart
     # snippet: zmk-usb-logging
   - board: puchi_ble_v1
     shield: corne_dongle_pro_micro nice_view_adapter nice_view_gem
     #  -DCONFIG_ZMK_USB=y  -DCONFIG_ZMK_BLE=y
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Puchi_Dongle_V\"  -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"PDongle_V\"  -DCONFIG_ZMK_STUDIO=y
     snippet: studio-rpc-usb-uart
     artifact-name: puchi_corne_dongle_view
     # snippet: zmk-usb-logging
