@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - {t: Esc, h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-command$$
+  - RAI
   - LOW
   - ⏎
   - ␣
@@ -123,9 +123,9 @@ layers:
   - '}'
   - '|'
   - '~'
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:apple-keyboard-command$$', type: held}
   - '&studio_unlock'
   - ⏎
   - ␣
-  - {t: '&studio_unlock', type: held}
+  - '&studio_unlock'
   - $$mdi:apple-keyboard-option$$
